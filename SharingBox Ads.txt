@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sharing Box</title>
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" type="image/png" href="https://i.postimg.cc/XJKd8xJB/IMG-20251026-085233-602.jpg">
+  
+  <script type='text/javascript' src='//lightingshovestature.com/6e/88/e0/6e88e0d512d46ada20c7cb23737b5cc4.js'></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+    /* Theme aur layout settings bilkul sahi hain */
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .theme-light { background-color: #f3f4f6; color: #111827; }
+    .ad-box { width: 100%; min-height: 90px; background-color: #ffffff; border: 1px dashed #d1d5db; display: flex; align-items: center; justify-content: center; margin-bottom: 1rem; border-radius: 0.5rem; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1); }
+    .timer-btn { background-color: #4f46e5; color: white; padding: 0.75rem 2rem; border-radius: 9999px; font-weight: bold; text-decoration: none; transition: background-color 0.3s; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1); }
+    .timer-btn:hover { background-color: #4338ca; }
+    .timer-btn-disabled { background-color: #9ca3af; color: #e5e7eb; cursor: not-allowed; }
+</style>
+</head>
+<body class="flex flex-col min-h-screen theme-light">
+
+    <header class="w-full bg-white shadow-md p-4">
+        <div class="max-w-xl mx-auto flex justify-between items-center">
+            <h1 class="text-xl font-bold text-gray-800">Sharing Box</h1>
+            <p class="text-sm text-gray-500"></p>
+        </div>
+    </header>
+
+    <main class="w-full flex-grow flex flex-col justify-center items-center p-4">
+        <div class="max-w-xl w-full">
+    
+            <!-- UPAR WALA AD BOX -->
+            <div class="ad-box"><a href="https://lightingshovestature.com/k120pwdss?key=1e02fc337d1afed9bd5c376318e39e0a">
+  <img src="https://i.postimg.cc/brZbRjBn/Pngtree-colorful-download-button-icon-set-6108134-1.png">
+              </a></div>
+
+            <!-- TIMER/BUTTON SECTION -->
+            <div id="timer-section" class="text-center my-8">
+                <p class="mb-4 text-gray-700">Click To Continue After Finish!</p>
+                <div id="timer-button" class="timer-btn timer-btn-disabled text-2xl">
+                    Please Wait <span id="countdown">10</span>s
+                </div>
+                <a id="continue-button" href="#get-link-section" style="display: none;" class="timer-btn text-2xl">
+                    Continue
+                </a>
+            </div>
+
+            <!-- NEECHE WALE AD BOXES -->
+            <div class="ad-box"><a href="https://lightingshovestature.com/k120pwdss?key=1e02fc337d1afed9bd5c376318e39e0a">
+  <img src="https://i.postimg.cc/brZbRjBn/Pngtree-colorful-download-button-icon-set-6108134-1.png">
+              </a></div>
+          
+            <div class="ad-box"><a href="https://lightingshovestature.com/k120pwdss?key=1e02fc337d1afed9bd5c376318e39e0a">
+  <img src="https://i.postimg.cc/brZbRjBn/Pngtree-colorful-download-button-icon-set-6108134-1.png">
+              </a></div>
+          
+            <div class="ad-box"><a href="https://lightingshovestature.com/k120pwdss?key=1e02fc337d1afed9bd5c376318e39e0a">
+  <img src="https://i.postimg.cc/brZbRjBn/Pngtree-colorful-download-button-icon-set-6108134-1.png">
+              </a></div>
+          
+            <div class="ad-box"><a href="https://lightingshovestature.com/k120pwdss?key=1e02fc337d1afed9bd5c376318e39e0a">
+  <img src="https://i.postimg.cc/brZbRjBn/Pngtree-colorful-download-button-icon-set-6108134-1.png">
+              </a></div>
+            
+            <!-- === YAHAN BADLAV KIYA GAYA HAI: 'visibility: hidden' ko 'display: none' se badla gaya hai === -->
+            <div id="get-link-section" class="text-center my-16" style="display: none;">
+                <p class="mb-4 text-gray-700">You are almost there! Click below to get your link.</p>
+                <a id="get-link-button" href="#" class="timer-btn text-2xl">
+                    Get Link
+                </a>
+            </div>
+
+        </div>
+    </main>
+    
+    <footer class="w-full bg-gray-200 p-4 text-center text-gray-500 text-sm">
+        © 2025 Sharing Box. All Rights Reserved.
+    </footer>
+    
+    <!-- === JAVASCRIPT LOGIC (Yahan chota sa badlav hai) === -->
+    <script type="text/javascript">
+        // --- YAHAN APNE DUSRE (STREAM/DOWNLOAD) BLOGGER PAGE KA URL DAALEIN ---
+        var streamPageUrl = "https://srgboxstrm.blogspot.com";
+        // -----------------------------------------------------------------
+
+        function getParameterByName(name, url) {
+            // (Yeh function bilkul sahi hai)
+            if (!url) url = window.location.href; name = name.replace(/[\[\]]/g, '\\$&');
+            var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'), results = regex.exec(url);
+            if (!results) return null; if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, ' '));
+        }
+
+        window.onload = function() {
+            const uniqueId = getParameterByName('id');
+            if (!uniqueId) {
+                document.body.innerHTML = "<h1 style='text-align: center; margin-top: 50px;'>ERROR: Invalid or Missing Link ID.</h1>";
+                return;
+            }
+            const timerButton = document.getElementById('timer-button');
+            const continueButton = document.getElementById('continue-button');
+            const countdownSpan = document.getElementById('countdown');
+            const getLinkSection = document.getElementById('get-link-section');
+            const getLinkButton = document.getElementById('get-link-button');
+            let countdown = 10;
+            const timerInterval = setInterval(function() {
+                countdown--;
+                countdownSpan.textContent = countdown;
+                if (countdown <= 0) {
+                    clearInterval(timerInterval);
+                    timerButton.style.display = 'none';
+                    continueButton.style.display = 'inline-block';
+                }
+            }, 1000);
+            
+            continueButton.addEventListener('click', function(event) {
+                event.preventDefault();
+                // --- YAHAN BADLAV KIYA GAYA HAI: Ab yeh 'display' ko badlega ---
+                getLinkSection.style.display = 'block'; // 'visibility' ke bajaye 'display'
+                document.getElementById('get-link-section').scrollIntoView({ behavior: 'smooth' });
+            });
+            
+            getLinkButton.addEventListener('click', function(event) {
+                event.preventDefault();
+                const finalUrl = streamPageUrl + '?id=' + uniqueId;
+                window.location.replace(finalUrl);
+            });
+        };
+    </script>
+    
+    <!-- === PRIVACY WALA SCRIPT WAPAS ADD HO GAYA HAI === -->
+    <script type="text/javascript">
+        // Right-click ko poore page par disable karna
+        document.addEventListener('contextmenu', function(event) {
+            event.preventDefault();
+        });
+
+        // Text selection ko poore page par disable karna
+        document.body.style.userSelect = "none";
+        document.body.style.webkitUserSelect = "none";
+        document.body.style.mozUserSelect = "none";
+        document.body.style.msUserSelect = "none";
+    </script>
+  <script type='text/javascript' src='//lightingshovestature.com/a9/14/9c/a9149c417fd4429c3442e6b9304938c3.js'></script>
+</body>
+</html>

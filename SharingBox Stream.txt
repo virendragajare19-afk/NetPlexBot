@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Sharing Box - Your Secure File Sharing Hub</title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" href="https://i.postimg.cc/XJKd8xJB/IMG-20251026-085233-602.jpg">
+  
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type='text/javascript' src='//lightingshovestature.com/6e/88/e0/6e88e0d512d46ada20c7cb23737b5cc4.js'></script>
+  
+    <script async="async" data-cfasync="false" src="//lightingshovestature.com/a1df80cbdc4b5c4f5731a60c2c0d8313/invoke.js"></script>
+  
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; user-select: none; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; }
+        .theme-light { background-color: #f3f4f6; color: #111827; }
+        .theme-dark { background-color: #1a1a1a; color: #f0f0f0; }
+        .btn { display: inline-flex; align-items: center; justify-content: center; padding: 0.75rem 1.5rem; border-radius: 0.5rem; font-weight: 600; text-decoration: none; transition: all 0.2s ease-in-out; border: 2px solid transparent; cursor: pointer; }
+        .btn-primary { background-color: #4f46e5; color: white; border-color: #4f46e5; }
+        .btn-primary:hover { background-color: #4338ca; border-color: #4338ca; }
+        .btn-secondary { background-color: #374151; color: white; border-color: #4b5563; }
+        .btn-secondary:hover { background-color: #4b5563; border-color: #6b7280; }
+        .ad-container { width: 100%; min-height: 50px; margin: 1.5rem 0; display: flex; align-items: center; justify-content: center; background-color: #e5e7eb; border-radius: 0.5rem; }
+        .theme-dark .ad-container { background-color: #2d2d2d; }
+        .loader { border: 8px solid #374151; border-top: 8px solid #4f46e5; border-radius: 50%; width: 60px; height: 60px; animation: spin 1.5s linear infinite; margin: auto; }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+    </style>
+</head>
+<body class="flex flex-col min-h-screen theme-light"> <!-- Start with light theme -->
+
+    <header id="header" class="w-full bg-white shadow-md p-4">
+        <div class="max-w-4xl mx-auto flex justify-between items-center">
+            <a href="/" class="text-xl font-bold">Sharing Box</a>
+            <a id="upload-btn" href="#" class="btn btn-primary text-sm"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM6.293 6.707a1 1 0 010-1.414l3-3a1 1 0 011.414 0l3 3a1 1 0 01-1.414 1.414L11 5.414V13a1 1 0 11-2 0V5.414L7.707 6.707a1 1 0 01-1.414 0z" clip-rule="evenodd" /></svg>Upload Now</a>
+        </div>
+    </header>
+
+    <main class="flex-grow flex flex-col items-center justify-center p-4 w-full">
+        <!-- === HOMEPAGE SCREEN (By default, this is VISIBLE) === -->
+        <div id="homepage-screen" class="max-w-4xl w-full text-center">
+            <h2 class="text-4xl font-bold tracking-tight sm:text-5xl">Secure & Instant File Sharing</h2>
+            <p class="mt-6 text-lg leading-8 text-gray-600">
+                Welcome to Sharing Box, your private gateway to share files effortlessly. Upload any file to our Telegram bot and get a permanent, secure link instantly.
+            </p>
+            <div class="mt-10 grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Features... -->
+                <div class="p-6 bg-white rounded-lg shadow-md"><svg class="h-12 w-12 mx-auto text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"></path></svg><h3 class="mt-4 text-lg font-bold">Instant Upload</h3><p class="mt-2 text-gray-500">Simply send your file to our Telegram bot and let us handle the rest.</p></div>
+                <div class="p-6 bg-white rounded-lg shadow-md"><svg class="h-12 w-12 mx-auto text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"></path></svg><h3 class="mt-4 text-lg font-bold">Permanent Links</h3><p class="mt-2 text-gray-500">Your files are stored securely on Telegram, ensuring your links never expire.</p></div>
+                <div class="p-6 bg-white rounded-lg shadow-md"><svg class="h-12 w-12 mx-auto text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg><h3 class="mt-4 text-lg font-bold">Completely Private</h3><p class="mt-2 text-gray-500">You control who you share your links with.</p></div>
+            </div>
+        </div>
+
+        <!-- === DOWNLOAD SCREEN (By default, this is HIDDEN) === -->
+        <div id="download-screen" class="w-full" style="display: none;">
+            <div class="ad-container max-w-2xl w-full mx-auto">
+              <a href="https://lightingshovestature.com/k120pwdss?key=1e02fc337d1afed9bd5c376318e39e0a">
+  <img src="https://i.postimg.cc/brZbRjBn/Pngtree-colorful-download-button-icon-set-6108134-1.png">
+              </a>
+            </div>
+            <div id="loader-container" class="max-w-2xl w-full p-8 bg-gray-800 rounded-lg shadow-2xl text-center mx-auto"><div class="loader"></div><p class="mt-4 text-gray-400">Please Wait...</p></div>
+            <div id="content-container" style="display: none;" class="max-w-2xl w-full p-6 sm:p-8 bg-gray-800 rounded-lg shadow-2xl text-center mx-auto"><h1 id="file-name" class="text-xl sm:text-2xl font-bold mb-2 break-words"></h1><p id="file-size" class="text-gray-400 mb-6"></p><div id="button-container" class="flex flex-col sm:flex-row gap-4 justify-center"></div></div>
+            <div class="ad-container max-w-2xl w-full mt-8 mx-auto">
+              <div id="container-a1df80cbdc4b5c4f5731a60c2c0d8313"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer id="footer" class="w-full bg-gray-200 mt-auto p-4 text-center text-gray-500 text-sm">
+        © 2025 Sharing Box. All Rights Reserved.
+    </footer>
+
+    <script>
+        // === YEH NAYA, SAHI WALA JAVASCRIPT HAI ===
+        const RENDER_APP_URL = "https://sharingbox.onrender.com";
+        const BOT_USERNAME = "SharingBoxBot";
+        document.getElementById('upload-btn').href = `https://t.me/${BOT_USERNAME}`;
+
+        // This function runs immediately, as soon as the script is loaded
+        (function initPage() {
+            const homepageScreen = document.getElementById('homepage-screen');
+            const downloadScreen = document.getElementById('download-screen');
+            const body = document.body;
+            const header = document.getElementById('header');
+            const footer = document.getElementById('footer');
+            const params = new URLSearchParams(window.location.search);
+            const fileId = params.get('id');
+
+            if (fileId) {
+                // --- AGAR URL MEIN ID HAI ---
+                // Immediately hide homepage, show download page, and change theme
+                homepageScreen.style.display = 'none';
+                downloadScreen.style.display = 'block';
+                body.className = 'flex flex-col min-h-screen theme-dark';
+                header.className = 'w-full bg-gray-800 shadow-lg p-4 text-white';
+                footer.className = 'w-full bg-gray-800 mt-auto p-4 text-center text-gray-400 text-sm';
+                
+                // Now start fetching the data
+                fetchFileData(fileId);
+            } else {
+                // --- AGAR URL MEIN ID NAHI HAI ---
+                // Do nothing. The page is already showing the homepage correctly.
+                document.title = "Sharing Box - Your Secure File Sharing Hub";
+            }
+        })();
+        
+        async function fetchFileData(fileId) {
+            const loaderContainer = document.getElementById('loader-container');
+            const contentContainer = document.getElementById('content-container');
+            const fileNameEl = document.getElementById('file-name');
+            const fileSizeEl = document.getElementById('file-size');
+            const buttonContainer = document.getElementById('button-container');
+            
+            try {
+                const response = await fetch(`${RENDER_APP_URL}/api/file/${fileId}`);
+                if (!response.ok) { throw new Error(`Server error (${response.status})`); }
+                const data = await response.json();
+                fileNameEl.innerText = data.file_name;
+                fileSizeEl.innerText = `File Size: ${data.file_size}`;
+                document.title = `Download ${data.file_name}`;
+                const svg = '<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd" /></svg>';
+                const mimeType = data.mime_type || 'video/*';
+                const mxPlayerLink = `intent:${data.direct_dl_link}#Intent;action=android.intent.action.VIEW;type=${mimeType};end`;
+                const vlcIntentLink = `intent:${data.direct_dl_link}#Intent;action=android.intent.action.VIEW;type=${mimeType};package=org.videolan.vlc;end`;
+
+                buttonContainer.innerHTML = '';
+                if (data.is_media) {
+                    buttonContainer.innerHTML = `<a href="${data.direct_dl_link}" class="btn btn-primary">${svg} Direct Download</a><a href="${mxPlayerLink}" class="btn btn-secondary">Play in MX Player</a><a href="${vlcIntentLink}" class="btn btn-secondary">Play in VLC</a>`;
+                } else {
+                    buttonContainer.innerHTML = `<a href="${data.direct_dl_link}" class="btn btn-primary w-full sm:w-auto">${svg} Download</a>`;
+                }
+
+                loaderContainer.style.display = 'none';
+                contentContainer.style.display = 'block';
+            } catch (error) {
+                fileNameEl.innerText = "Error fetching file details.";
+                fileSizeEl.innerText = "Please try again later.";
+                loaderContainer.style.display = 'none';
+                contentContainer.style.display = 'block';
+                console.error(error);
+            }
+        }
+    </script>
+  
+    <script type="text/javascript">
+        document.addEventListener('contextmenu', function(event) { event.preventDefault(); });
+    </script>
+  
+    <script type='text/javascript' src='//lightingshovestature.com/a9/14/9c/a9149c417fd4429c3442e6b9304938c3.js'></script>
+</body>
+</html>
